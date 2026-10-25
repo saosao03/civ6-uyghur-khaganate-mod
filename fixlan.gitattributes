@@ -1,3 +1,12 @@
+# Yanlış dilleri ve binary/asset dosyalarını istatistiklerden gizle
+*.tex linguist-detectable=false
+*.artdef linguist-detectable=false
+*.xlp linguist-detectable=false
+*.dep linguist-detectable=false
+*.dds linguist-detectable=false
+*.blp linguist-detectable=false
+
+# SQL, XML ve Lua dillerinin görünmesini sağla
 *.sql linguist-detectable=true
 *.xml linguist-detectable=true
-*.artdef linguist-detectable=false
+*.lua linguist-detectable=true
