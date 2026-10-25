@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8fe8436a-c148-46de-a6df-fc488d4e9c56" version="4">
+  <Properties>
+    <Name>Uyghur Khaganate</Name>
+    <Description>Adds the Uyghur Khaganate under Bogu Khagan, with the Yaglakar Horseman, Bitig Evi, distinctive blue and gold colors, and 2D leader artwork. Requires Gathering Storm.</Description>
+    <Created>1792872971</Created>
+    <Teaser>Lead the Uyghur Khaganate under Bogu Khagan!</Teaser>
+    <Authors>saosao</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateColors id="Uygur_FrontEnd_Colors">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Data/Uygur_Colors.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="Uygur_FrontEnd_Database">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Data/Uygur_Core.sql</File>
+      <File>Data/Uygur_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Uygur_FrontEnd_Text">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Text/Uygur_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Uygur_FrontEnd_Icons">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Data/Uygur_Icons.xml</File>
+    </UpdateIcons>
+    <ImportFiles id="Uygur_FrontEnd_Import">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Data/Uygur_Diplomacy_BG.dds</File>
+    </ImportFiles>
+    <UpdateArt id="Uygur_FrontEnd_Art">
+      <File>UygurKaganligi.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateColors id="Uygur_InGame_Colors">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Data/Uygur_Colors.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="Uygur_InGame_Database">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Data/Uygur_Core.sql</File>
+      <File>Data/Uygur_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Uygur_InGame_Trade">
+      <Properties>
+        <LoadOrder>20001</LoadOrder>
+      </Properties>
+      <File>Data/Uygur_Trade.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Uygur_InGame_Tolerance">
+      <Properties>
+        <LoadOrder>20002</LoadOrder>
+      </Properties>
+      <File>Data/Uygur_Tolerance.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="Uygur_InGame_Tolerance_Script">
+      <Properties>
+        <LoadOrder>20002</LoadOrder>
+      </Properties>
+      <File>Scripts/Uygur_Tolerance.lua</File>
+    </AddGameplayScripts>
+    <UpdateText id="Uygur_InGame_Text">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Text/Uygur_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Uygur_InGame_Icons">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Data/Uygur_Icons.xml</File>
+    </UpdateIcons>
+    <ImportFiles id="Uygur_InGame_Import">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Data/Uygur_Diplomacy_BG.dds</File>
+    </ImportFiles>
+    <UpdateArt id="Uygur_InGame_Art">
+      <File>UygurKaganligi.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Data/Uygur_Building_128.dds</File>
+    <File>Data/Uygur_Building_256.dds</File>
+    <File>Data/Uygur_Building_38.dds</File>
+    <File>Data/Uygur_Building_50.dds</File>
+    <File>Data/Uygur_Building_80.dds</File>
+    <File>Data/Uygur_Civ_22.dds</File>
+    <File>Data/Uygur_Civ_256.dds</File>
+    <File>Data/Uygur_Civ_30.dds</File>
+    <File>Data/Uygur_Civ_36.dds</File>
+    <File>Data/Uygur_Civ_44.dds</File>
+    <File>Data/Uygur_Civ_45.dds</File>
+    <File>Data/Uygur_Civ_48.dds</File>
+    <File>Data/Uygur_Civ_50.dds</File>
+    <File>Data/Uygur_Civ_64.dds</File>
+    <File>Data/Uygur_Civ_80.dds</File>
+    <File>Data/Uygur_Colors.xml</File>
+    <File>Data/Uygur_Config.sql</File>
+    <File>Data/Uygur_Core.sql</File>
+    <File>Data/Uygur_Diplomacy_BG.dds</File>
+    <File>Data/Uygur_Gameplay.sql</File>
+    <File>Data/Uygur_Icons.xml</File>
+    <File>Data/Uygur_Leader_256.dds</File>
+    <File>Data/Uygur_Leader_32.dds</File>
+    <File>Data/Uygur_Leader_45.dds</File>
+    <File>Data/Uygur_Leader_50.dds</File>
+    <File>Data/Uygur_Leader_55.dds</File>
+    <File>Data/Uygur_Leader_64.dds</File>
+    <File>Data/Uygur_Leader_80.dds</File>
+    <File>Data/Uygur_Tolerance.sql</File>
+    <File>Data/Uygur_Trade.sql</File>
+    <File>Data/Uygur_Unit_22.dds</File>
+    <File>Data/Uygur_Unit_256.dds</File>
+    <File>Data/Uygur_Unit_32.dds</File>
+    <File>Data/Uygur_Unit_38.dds</File>
+    <File>Data/Uygur_Unit_50.dds</File>
+    <File>Data/Uygur_Unit_80.dds</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/UygurIcons.blp</File>
+    <File>Scripts/Uygur_Tolerance.lua</File>
+    <File>Textures/FALLBACK_NEUTRAL_LEADER_BUGU_KAGAN.dds</File>
+    <File>Textures/FALLBACK_NEUTRAL_LEADER_BUGU_KAGAN.tex</File>
+    <File>Textures/LEADER_BUGU_KAGAN_BACKGROUND.dds</File>
+    <File>Textures/LEADER_BUGU_KAGAN_BACKGROUND.tex</File>
+    <File>Textures/LEADER_BUGU_KAGAN_NEUTRAL.dds</File>
+    <File>Textures/LEADER_BUGU_KAGAN_NEUTRAL.tex</File>
+    <File>Textures/Uygur_Building_128.dds</File>
+    <File>Textures/Uygur_Building_128.tex</File>
+    <File>Textures/Uygur_Building_256.dds</File>
+    <File>Textures/Uygur_Building_256.tex</File>
+    <File>Textures/Uygur_Building_38.dds</File>
+    <File>Textures/Uygur_Building_38.tex</File>
+    <File>Textures/Uygur_Building_50.dds</File>
+    <File>Textures/Uygur_Building_50.tex</File>
+    <File>Textures/Uygur_Building_80.dds</File>
+    <File>Textures/Uygur_Building_80.tex</File>
+    <File>Textures/Uygur_Civ_22.dds</File>
+    <File>Textures/Uygur_Civ_22.tex</File>
+    <File>Textures/Uygur_Civ_256.dds</File>
+    <File>Textures/Uygur_Civ_256.tex</File>
+    <File>Textures/Uygur_Civ_30.dds</File>
+    <File>Textures/Uygur_Civ_30.tex</File>
+    <File>Textures/Uygur_Civ_36.dds</File>
+    <File>Textures/Uygur_Civ_36.tex</File>
+    <File>Textures/Uygur_Civ_44.dds</File>
+    <File>Textures/Uygur_Civ_44.tex</File>
+    <File>Textures/Uygur_Civ_45.dds</File>
+    <File>Textures/Uygur_Civ_45.tex</File>
+    <File>Textures/Uygur_Civ_48.dds</File>
+    <File>Textures/Uygur_Civ_48.tex</File>
+    <File>Textures/Uygur_Civ_50.dds</File>
+    <File>Textures/Uygur_Civ_50.tex</File>
+    <File>Textures/Uygur_Civ_64.dds</File>
+    <File>Textures/Uygur_Civ_64.tex</File>
+    <File>Textures/Uygur_Civ_80.dds</File>
+    <File>Textures/Uygur_Civ_80.tex</File>
+    <File>Textures/Uygur_Leader_256.dds</File>
+    <File>Textures/Uygur_Leader_256.tex</File>
+    <File>Textures/Uygur_Leader_32.dds</File>
+    <File>Textures/Uygur_Leader_32.tex</File>
+    <File>Textures/Uygur_Leader_45.dds</File>
+    <File>Textures/Uygur_Leader_45.tex</File>
+    <File>Textures/Uygur_Leader_50.dds</File>
+    <File>Textures/Uygur_Leader_50.tex</File>
+    <File>Textures/Uygur_Leader_55.dds</File>
+    <File>Textures/Uygur_Leader_55.tex</File>
+    <File>Textures/Uygur_Leader_64.dds</File>
+    <File>Textures/Uygur_Leader_64.tex</File>
+    <File>Textures/Uygur_Leader_80.dds</File>
+    <File>Textures/Uygur_Leader_80.tex</File>
+    <File>Textures/Uygur_Unit_22.dds</File>
+    <File>Textures/Uygur_Unit_22.tex</File>
+    <File>Textures/Uygur_Unit_256.dds</File>
+    <File>Textures/Uygur_Unit_256.tex</File>
+    <File>Textures/Uygur_Unit_32.dds</File>
+    <File>Textures/Uygur_Unit_32.tex</File>
+    <File>Textures/Uygur_Unit_38.dds</File>
+    <File>Textures/Uygur_Unit_38.tex</File>
+    <File>Textures/Uygur_Unit_50.dds</File>
+    <File>Textures/Uygur_Unit_50.tex</File>
+    <File>Textures/Uygur_Unit_80.dds</File>
+    <File>Textures/Uygur_Unit_80.tex</File>
+    <File>Textures/Uygur_Unit_Portrait_200.dds</File>
+    <File>Textures/Uygur_Unit_Portrait_200.tex</File>
+    <File>Textures/Uygur_Unit_Portrait_256.dds</File>
+    <File>Textures/Uygur_Unit_Portrait_256.tex</File>
+    <File>Textures/Uygur_Unit_Portrait_38.dds</File>
+    <File>Textures/Uygur_Unit_Portrait_38.tex</File>
+    <File>Textures/Uygur_Unit_Portrait_50.dds</File>
+    <File>Textures/Uygur_Unit_Portrait_50.tex</File>
+    <File>Textures/Uygur_Unit_Portrait_70.dds</File>
+    <File>Textures/Uygur_Unit_Portrait_70.tex</File>
+    <File>Textures/Uygur_Unit_Portrait_95.dds</File>
+    <File>Textures/Uygur_Unit_Portrait_95.tex</File>
+    <File>Text/Uygur_Text.xml</File>
+    <File>UygurKaganligi.dep</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+    <File>XLPs/UygurIcons.xlp</File>
+  </Files>
+</Mod>

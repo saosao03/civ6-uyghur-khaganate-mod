@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Row Tag="LOC_CIVILIZATION_UYGUR_KAGANLIGI_NAME" Language="tr_TR"><Text>Uygur Kağanlığı</Text></Row>
+        <Row Tag="LOC_CIVILIZATION_UYGUR_KAGANLIGI_NAME" Language="en_US"><Text>Uyghur Khaganate</Text></Row>
+        
+        <Row Tag="LOC_CIVILIZATION_UYGUR_KAGANLIGI_DESCRIPTION" Language="tr_TR"><Text>Uygur</Text></Row>
+        <Row Tag="LOC_CIVILIZATION_UYGUR_KAGANLIGI_DESCRIPTION" Language="en_US"><Text>Uyghur</Text></Row>
+        
+        <Row Tag="LOC_CIVILIZATION_UYGUR_KAGANLIGI_ADJECTIVE" Language="tr_TR"><Text>Uygur</Text></Row>
+        <Row Tag="LOC_CIVILIZATION_UYGUR_KAGANLIGI_ADJECTIVE" Language="en_US"><Text>Uyghur</Text></Row>
+        
+        <Row Tag="LOC_LEADER_BUGU_KAGAN_NAME" Language="tr_TR"><Text>Bügü Kağan</Text></Row>
+        <Row Tag="LOC_LEADER_BUGU_KAGAN_NAME" Language="en_US"><Text>Bögü Khagan</Text></Row>
+        
+        <!-- İPEK-AT TAKASI (Medeniyet Yeteneği) -->
+        <Row Tag="LOC_TRAIT_CIVILIZATION_UYGUR_IPEK_AT_NAME" Language="tr_TR"><Text>İpek-At Takası</Text></Row>
+        <Row Tag="LOC_TRAIT_CIVILIZATION_UYGUR_IPEK_AT_NAME" Language="en_US"><Text>Silk-for-Horses Exchange</Text></Row>
+        <Row Tag="LOC_TRAIT_CIVILIZATION_UYGUR_IPEK_AT_DESCRIPTION" Language="tr_TR"><Text>Ticaret Merkezi bulunan her şehre +3 [ICON_Gold] Altın ve +1 [ICON_Culture] Kültür. Ayrıca şehirlerinden başlayan her ticaret yolu, başladığı şehre +4 [ICON_Gold] Altın ve +3 [ICON_Culture] Kültür getirir.</Text></Row>
+        <Row Tag="LOC_TRAIT_CIVILIZATION_UYGUR_IPEK_AT_DESCRIPTION" Language="en_US"><Text>Each city with a Commercial Hub gets +3 [ICON_Gold] Gold and +1 [ICON_Culture] Culture. Each trade route starting from your cities also gives its origin city +4 [ICON_Gold] Gold and +3 [ICON_Culture] Culture.</Text></Row>
+        
+        <!-- ÜÇ DİNLİ HOŞGÖRÜ (Lider Yeteneği) -->
+        <Row Tag="LOC_TRAIT_LEADER_BUGU_UC_DIN_NAME" Language="tr_TR"><Text>Üç Dinli Hoşgörü</Text></Row>
+        <Row Tag="LOC_TRAIT_LEADER_BUGU_UC_DIN_NAME" Language="en_US"><Text>Tolerance of Three Faiths</Text></Row>
+        <Row Tag="LOC_TRAIT_LEADER_BUGU_UC_DIN_DESCRIPTION" Language="tr_TR"><Text>Kutsal Mekân, Kampüs ve Tiyatro Meydanı bölgelerinin üçüne de sahip her şehir +5 [ICON_Science] Bilim, +5 [ICON_Culture] Kültür ve +5 [ICON_Faith] İnanç kazanır. Ayrıca takipçisi olan 2 farklı inancı barındıran şehir +5 [ICON_Culture] Kültür, 3 farklı inancı barındıran şehir ayrıca +5 [ICON_Science] Bilim ve +3 [ICON_Faith] İnanç kazanır (kalıcı).</Text></Row>
+        <Row Tag="LOC_TRAIT_LEADER_BUGU_UC_DIN_DESCRIPTION" Language="en_US"><Text>Each city with a Holy Site, a Campus and a Theater Square gets +5 [ICON_Science] Science, +5 [ICON_Culture] Culture and +5 [ICON_Faith] Faith. Also, a city hosting 2 different religions with followers gets +5 [ICON_Culture] Culture, and one hosting 3 gets an additional +5 [ICON_Science] Science and +3 [ICON_Faith] Faith (permanent once reached).</Text></Row>
+        
+        <!-- YAĞLAKAR ATLISI (Eşsiz Birim) -->
+        <Row Tag="LOC_UNIT_UYGUR_YAGLAKAR_NAME" Language="tr_TR"><Text>Yağlakar Atlısı</Text></Row>
+        <Row Tag="LOC_UNIT_UYGUR_YAGLAKAR_NAME" Language="en_US"><Text>Yaghlakar Horseman</Text></Row>
+        <Row Tag="LOC_UNIT_UYGUR_YAGLAKAR_DESCRIPTION" Language="tr_TR"><Text>Uygur'a özgü Orta Çağ hafif süvari birimi, Courser (Akıncı) yerine geçer. Standart birime göre +11 [ICON_Strength] Savaş Gücü (55) ve +1 [ICON_Movement] Hareket Puanı (6) sağlar.</Text></Row>
+        <Row Tag="LOC_UNIT_UYGUR_YAGLAKAR_DESCRIPTION" Language="en_US"><Text>Uyghur unique Medieval Era light cavalry unit. Replaces the Courser. Has +11 [ICON_Strength] Combat Strength (55 total) and +1 [ICON_Movement] Movement (6 total).</Text></Row>
+        
+        <!-- BİTİG EVİ (Eşsiz Bina) -->
+        <Row Tag="LOC_BUILDING_UYGUR_BITIG_EVI_NAME" Language="tr_TR"><Text>Bitig Evi</Text></Row>
+        <Row Tag="LOC_BUILDING_UYGUR_BITIG_EVI_NAME" Language="en_US"><Text>Bitig Evi (House of Scribes)</Text></Row>
+        <Row Tag="LOC_BUILDING_UYGUR_BITIG_EVI_DESCRIPTION" Language="tr_TR"><Text>Uygur'a özgü bina, Kütüphane'nin yerine geçer. Kütüphanenin tüm verimlerine ek olarak +3 [ICON_Culture] Kültür, +3 Büyük Yazar puanı ve +3 Büyük Bilim İnsanı puanı sağlar.</Text></Row>
+        <Row Tag="LOC_BUILDING_UYGUR_BITIG_EVI_DESCRIPTION" Language="en_US"><Text>Uyghur unique building. Replaces the Library. In addition to everything the Library provides: +3 [ICON_Culture] Culture, +3 Great Writer points and +3 Great Scientist points.</Text></Row>
+        
+        <!-- ŞEHİR İSİMLERİ VE BİLGİ KARTLARI (Değişmedi) -->
+        <Row Tag="LOC_CITY_NAME_UYGUR_ORDU_BALIK" Language="tr_TR"><Text>Ordu-Balık</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_ORDU_BALIK" Language="en_US"><Text>Ordu-Baliq</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_BAY_BALIK" Language="tr_TR"><Text>Bay-Balık</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_BAY_BALIK" Language="en_US"><Text>Bai-Baliq</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_BESBALIK" Language="tr_TR"><Text>Beşbalık</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_BESBALIK" Language="en_US"><Text>Beshbaliq</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_KOCO" Language="tr_TR"><Text>Koço</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_KOCO" Language="en_US"><Text>Qocho</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_TURFAN" Language="tr_TR"><Text>Turfan</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_TURFAN" Language="en_US"><Text>Turfan</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_HAMI" Language="tr_TR"><Text>Hami</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_HAMI" Language="en_US"><Text>Hami</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_KUCA" Language="tr_TR"><Text>Kuça</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_KUCA" Language="en_US"><Text>Kucha</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_AKSU" Language="tr_TR"><Text>Aksu</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_AKSU" Language="en_US"><Text>Aksu</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_KASGAR" Language="tr_TR"><Text>Kaşgar</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_KASGAR" Language="en_US"><Text>Kashgar</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_YARKENT" Language="tr_TR"><Text>Yarkent</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_YARKENT" Language="en_US"><Text>Yarkand</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_HOTAN" Language="tr_TR"><Text>Hotan</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_HOTAN" Language="en_US"><Text>Khotan</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_OTUKEN" Language="tr_TR"><Text>Ötüken</Text></Row>
+        <Row Tag="LOC_CITY_NAME_UYGUR_OTUKEN" Language="en_US"><Text>Ötüken</Text></Row>
+        
+        <Row Tag="LOC_CIVINFO_UYGUR_LOCATION" Language="tr_TR"><Text>Orta Asya: Orhun Vadisi ve Doğu Türkistan</Text></Row>
+        <Row Tag="LOC_CIVINFO_UYGUR_LOCATION" Language="en_US"><Text>Central Asia: the Orkhon Valley and the Tarim Basin</Text></Row>
+        <Row Tag="LOC_CIVINFO_UYGUR_SIZE" Language="tr_TR"><Text>Orhun Vadisi'nden Altay ve Tanrı Dağları'na uzanan bozkır devleti</Text></Row>
+        <Row Tag="LOC_CIVINFO_UYGUR_SIZE" Language="en_US"><Text>A steppe state reaching from the Orkhon Valley to the Altai and the Tian Shan</Text></Row>
+        <Row Tag="LOC_CIVINFO_UYGUR_CAPITAL" Language="tr_TR"><Text>Ordu-Balık (Karabalgasun)</Text></Row>
+        <Row Tag="LOC_CIVINFO_UYGUR_CAPITAL" Language="en_US"><Text>Ordu-Baliq (Karabalgasun)</Text></Row>
+    </LocalizedText>
+</GameData>

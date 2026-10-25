@@ -1,0 +1,129 @@
+INSERT INTO Types (Type, Kind) VALUES
+    ('TRAIT_CIVILIZATION_UYGUR_IPEK_AT',            'KIND_TRAIT'),
+    ('TRAIT_LEADER_BUGU_UC_DIN',                    'KIND_TRAIT'),
+    ('TRAIT_CIVILIZATION_UNIT_UYGUR_YAGLAKAR',      'KIND_TRAIT'),
+    ('TRAIT_CIVILIZATION_BUILDING_UYGUR_BITIG_EVI', 'KIND_TRAIT'),
+    ('UNIT_UYGUR_YAGLAKAR',                         'KIND_UNIT'),
+    ('BUILDING_UYGUR_BITIG_EVI',                    'KIND_BUILDING');
+
+INSERT INTO Traits (TraitType, Name, Description) VALUES
+    ('TRAIT_CIVILIZATION_UYGUR_IPEK_AT', 'LOC_TRAIT_CIVILIZATION_UYGUR_IPEK_AT_NAME', 'LOC_TRAIT_CIVILIZATION_UYGUR_IPEK_AT_DESCRIPTION'),
+    ('TRAIT_LEADER_BUGU_UC_DIN', 'LOC_TRAIT_LEADER_BUGU_UC_DIN_NAME', 'LOC_TRAIT_LEADER_BUGU_UC_DIN_DESCRIPTION'),
+    ('TRAIT_CIVILIZATION_UNIT_UYGUR_YAGLAKAR', NULL, NULL),
+    ('TRAIT_CIVILIZATION_BUILDING_UYGUR_BITIG_EVI', NULL, NULL);
+
+INSERT INTO CivilizationTraits (CivilizationType, TraitType) VALUES
+    ('CIVILIZATION_UYGUR_KAGANLIGI', 'TRAIT_CIVILIZATION_UYGUR_IPEK_AT'),
+    ('CIVILIZATION_UYGUR_KAGANLIGI', 'TRAIT_CIVILIZATION_UNIT_UYGUR_YAGLAKAR'),
+    ('CIVILIZATION_UYGUR_KAGANLIGI', 'TRAIT_CIVILIZATION_BUILDING_UYGUR_BITIG_EVI');
+
+INSERT INTO LeaderTraits (LeaderType, TraitType) VALUES
+    ('LEADER_BUGU_KAGAN', 'TRAIT_LEADER_MAJOR_CIV'),
+    ('LEADER_BUGU_KAGAN', 'TRAIT_LEADER_BUGU_UC_DIN');
+
+INSERT INTO StartBiasResources (CivilizationType, ResourceType, Tier) VALUES
+    ('CIVILIZATION_UYGUR_KAGANLIGI', 'RESOURCE_HORSES', 3);
+
+INSERT INTO StartBiasRivers (CivilizationType, Tier) VALUES
+    ('CIVILIZATION_UYGUR_KAGANLIGI', 3);
+
+-- ---------------------------------------------------------------------
+-- OYUN İÇİ DOĞRUDAN MODİFİYER VE KISITLAYICILAR (ONARILAN KISIM)
+-- ---------------------------------------------------------------------
+INSERT OR REPLACE INTO Requirements (RequirementId, RequirementType) VALUES
+    ('UYGUR_REQ_CITY_HAS_COMMERCIAL_HUB', 'REQUIREMENT_CITY_HAS_DISTRICT'),
+    ('UYGUR_REQ_CITY_HAS_HOLY_SITE',      'REQUIREMENT_CITY_HAS_DISTRICT'),
+    ('UYGUR_REQ_CITY_HAS_CAMPUS',         'REQUIREMENT_CITY_HAS_DISTRICT'),
+    ('UYGUR_REQ_CITY_HAS_THEATER',        'REQUIREMENT_CITY_HAS_DISTRICT');
+
+INSERT OR REPLACE INTO RequirementArguments (RequirementId, Name, Value) VALUES
+    ('UYGUR_REQ_CITY_HAS_COMMERCIAL_HUB', 'DistrictType', 'DISTRICT_COMMERCIAL_HUB'),
+    ('UYGUR_REQ_CITY_HAS_HOLY_SITE',      'DistrictType', 'DISTRICT_HOLY_SITE'),
+    ('UYGUR_REQ_CITY_HAS_CAMPUS',         'DistrictType', 'DISTRICT_CAMPUS'),
+    ('UYGUR_REQ_CITY_HAS_THEATER',        'DistrictType', 'DISTRICT_THEATER');
+
+INSERT OR REPLACE INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
+    ('UYGUR_COMMERCIAL_HUB_REQSET',  'REQUIREMENTSET_TEST_ALL'),
+    ('UYGUR_THREE_FAITHS_REQSET',    'REQUIREMENTSET_TEST_ALL');
+
+INSERT OR REPLACE INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
+    ('UYGUR_COMMERCIAL_HUB_REQSET', 'UYGUR_REQ_CITY_HAS_COMMERCIAL_HUB'),
+    ('UYGUR_THREE_FAITHS_REQSET',   'UYGUR_REQ_CITY_HAS_HOLY_SITE'),
+    ('UYGUR_THREE_FAITHS_REQSET',   'UYGUR_REQ_CITY_HAS_CAMPUS'),
+    ('UYGUR_THREE_FAITHS_REQSET',   'UYGUR_REQ_CITY_HAS_THEATER');
+
+INSERT OR REPLACE INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+    ('UYGUR_IPEK_AT_GOLD',    'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE', 'UYGUR_COMMERCIAL_HUB_REQSET'),
+    ('UYGUR_IPEK_AT_CULTURE', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE', 'UYGUR_COMMERCIAL_HUB_REQSET'),
+    ('UYGUR_UC_DIN_SCIENCE',  'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE', 'UYGUR_THREE_FAITHS_REQSET'),
+    ('UYGUR_UC_DIN_CULTURE',  'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE', 'UYGUR_THREE_FAITHS_REQSET'),
+    ('UYGUR_UC_DIN_FAITH',    'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE', 'UYGUR_THREE_FAITHS_REQSET');
+
+INSERT OR REPLACE INTO ModifierArguments (ModifierId, Name, Value) VALUES
+    ('UYGUR_IPEK_AT_GOLD',    'YieldType', 'YIELD_GOLD'),
+    ('UYGUR_IPEK_AT_GOLD',    'Amount',    '3'),
+    ('UYGUR_IPEK_AT_CULTURE', 'YieldType', 'YIELD_CULTURE'),
+    ('UYGUR_IPEK_AT_CULTURE', 'Amount',    '1'),
+    ('UYGUR_UC_DIN_SCIENCE',  'YieldType', 'YIELD_SCIENCE'),
+    ('UYGUR_UC_DIN_SCIENCE',  'Amount',    '5'),
+    ('UYGUR_UC_DIN_CULTURE',  'YieldType', 'YIELD_CULTURE'),
+    ('UYGUR_UC_DIN_CULTURE',  'Amount',    '5'),
+    ('UYGUR_UC_DIN_FAITH',    'YieldType', 'YIELD_FAITH'),
+    ('UYGUR_UC_DIN_FAITH',    'Amount',    '5');
+
+INSERT OR REPLACE INTO TraitModifiers (TraitType, ModifierId) VALUES
+    ('TRAIT_CIVILIZATION_UYGUR_IPEK_AT', 'UYGUR_IPEK_AT_GOLD'),
+    ('TRAIT_CIVILIZATION_UYGUR_IPEK_AT', 'UYGUR_IPEK_AT_CULTURE'),
+    ('TRAIT_LEADER_BUGU_UC_DIN',         'UYGUR_UC_DIN_SCIENCE'),
+    ('TRAIT_LEADER_BUGU_UC_DIN',         'UYGUR_UC_DIN_CULTURE'),
+    ('TRAIT_LEADER_BUGU_UC_DIN',         'UYGUR_UC_DIN_FAITH');
+
+-- ---------------------------------------------------------------------
+-- EŞSİZ BİNA: Bitig Evi
+-- ---------------------------------------------------------------------
+CREATE TEMPORARY TABLE _uygur_clone AS SELECT * FROM Buildings WHERE BuildingType = 'BUILDING_LIBRARY';
+UPDATE _uygur_clone SET
+    BuildingType = 'BUILDING_UYGUR_BITIG_EVI',
+    Name         = 'LOC_BUILDING_UYGUR_BITIG_EVI_NAME',
+    Description  = 'LOC_BUILDING_UYGUR_BITIG_EVI_DESCRIPTION',
+    TraitType    = 'TRAIT_CIVILIZATION_BUILDING_UYGUR_BITIG_EVI';
+INSERT INTO Buildings SELECT * FROM _uygur_clone;
+DROP TABLE _uygur_clone;
+
+CREATE TEMPORARY TABLE _uygur_clone AS SELECT * FROM Building_YieldChanges WHERE BuildingType = 'BUILDING_LIBRARY';
+UPDATE _uygur_clone SET BuildingType = 'BUILDING_UYGUR_BITIG_EVI';
+INSERT INTO Building_YieldChanges SELECT * FROM _uygur_clone;
+DROP TABLE _uygur_clone;
+
+CREATE TEMPORARY TABLE _uygur_clone AS SELECT * FROM Building_GreatWorks WHERE BuildingType = 'BUILDING_LIBRARY';
+UPDATE _uygur_clone SET BuildingType = 'BUILDING_UYGUR_BITIG_EVI';
+INSERT INTO Building_GreatWorks SELECT * FROM _uygur_clone;
+DROP TABLE _uygur_clone;
+
+INSERT INTO Building_YieldChanges (BuildingType, YieldType, YieldChange) VALUES
+    ('BUILDING_UYGUR_BITIG_EVI', 'YIELD_CULTURE', 3);
+
+INSERT INTO Building_GreatPersonPoints (BuildingType, GreatPersonClassType, PointsPerTurn) VALUES
+    ('BUILDING_UYGUR_BITIG_EVI', 'GREAT_PERSON_CLASS_WRITER',    3),
+    ('BUILDING_UYGUR_BITIG_EVI', 'GREAT_PERSON_CLASS_SCIENTIST', 3);
+
+INSERT INTO BuildingReplaces (CivUniqueBuildingType, ReplacesBuildingType) VALUES
+    ('BUILDING_UYGUR_BITIG_EVI', 'BUILDING_LIBRARY');
+
+-- ---------------------------------------------------------------------
+-- EŞSİZ BİRİM: Yağlakar Atlısı
+-- ---------------------------------------------------------------------
+CREATE TEMPORARY TABLE _uygur_clone AS SELECT * FROM Units WHERE UnitType = 'UNIT_COURSER';
+UPDATE _uygur_clone SET
+    UnitType    = 'UNIT_UYGUR_YAGLAKAR',
+    Name        = 'LOC_UNIT_UYGUR_YAGLAKAR_NAME',
+    Description = 'LOC_UNIT_UYGUR_YAGLAKAR_DESCRIPTION',
+    Combat      = 55,
+    BaseMoves   = 6,
+    TraitType   = 'TRAIT_CIVILIZATION_UNIT_UYGUR_YAGLAKAR';
+INSERT INTO Units SELECT * FROM _uygur_clone;
+DROP TABLE _uygur_clone;
+
+INSERT INTO TypeTags (Type, Tag) SELECT 'UNIT_UYGUR_YAGLAKAR', Tag FROM TypeTags WHERE Type = 'UNIT_COURSER';
+INSERT INTO UnitAIInfos (UnitType, AiType) SELECT 'UNIT_UYGUR_YAGLAKAR', AiType FROM UnitAIInfos WHERE UnitType = 'UNIT_COURSER';
+INSERT INTO UnitReplaces (CivUniqueUnitType, ReplacesUnitType) VALUES ('UNIT_UYGUR_YAGLAKAR', 'UNIT_COURSER');

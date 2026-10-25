@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AssetObjects..XLP>
+  <m_Version>
+    <major>4</major>
+    <minor>0</minor>
+    <build>451</build>
+    <revision>343</revision>
+  </m_Version>
+  <m_ClassName text="UITexture"/>
+  <m_PackageName text="UI/UygurIcons"/>
+  <m_Entries>
+    <Element>
+      <m_EntryID text="Uygur_Building_128"/>
+      <m_ObjectName text="Uygur_Building_128"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Building_256"/>
+      <m_ObjectName text="Uygur_Building_256"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Building_38"/>
+      <m_ObjectName text="Uygur_Building_38"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Building_50"/>
+      <m_ObjectName text="Uygur_Building_50"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Building_80"/>
+      <m_ObjectName text="Uygur_Building_80"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Civ_22"/>
+      <m_ObjectName text="Uygur_Civ_22"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Civ_256"/>
+      <m_ObjectName text="Uygur_Civ_256"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Civ_30"/>
+      <m_ObjectName text="Uygur_Civ_30"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Civ_36"/>
+      <m_ObjectName text="Uygur_Civ_36"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Civ_44"/>
+      <m_ObjectName text="Uygur_Civ_44"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Civ_45"/>
+      <m_ObjectName text="Uygur_Civ_45"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Civ_48"/>
+      <m_ObjectName text="Uygur_Civ_48"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Civ_50"/>
+      <m_ObjectName text="Uygur_Civ_50"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Civ_64"/>
+      <m_ObjectName text="Uygur_Civ_64"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Civ_80"/>
+      <m_ObjectName text="Uygur_Civ_80"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Leader_256"/>
+      <m_ObjectName text="Uygur_Leader_256"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Leader_32"/>
+      <m_ObjectName text="Uygur_Leader_32"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Leader_45"/>
+      <m_ObjectName text="Uygur_Leader_45"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Leader_50"/>
+      <m_ObjectName text="Uygur_Leader_50"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Leader_55"/>
+      <m_ObjectName text="Uygur_Leader_55"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Leader_64"/>
+      <m_ObjectName text="Uygur_Leader_64"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Leader_80"/>
+      <m_ObjectName text="Uygur_Leader_80"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_22"/>
+      <m_ObjectName text="Uygur_Unit_22"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_256"/>
+      <m_ObjectName text="Uygur_Unit_256"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_32"/>
+      <m_ObjectName text="Uygur_Unit_32"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_38"/>
+      <m_ObjectName text="Uygur_Unit_38"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_50"/>
+      <m_ObjectName text="Uygur_Unit_50"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_80"/>
+      <m_ObjectName text="Uygur_Unit_80"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_Portrait_38"/>
+      <m_ObjectName text="Uygur_Unit_Portrait_38"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_Portrait_50"/>
+      <m_ObjectName text="Uygur_Unit_Portrait_50"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_Portrait_70"/>
+      <m_ObjectName text="Uygur_Unit_Portrait_70"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_Portrait_95"/>
+      <m_ObjectName text="Uygur_Unit_Portrait_95"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_Portrait_200"/>
+      <m_ObjectName text="Uygur_Unit_Portrait_200"/>
+    </Element>
+    <Element>
+      <m_EntryID text="Uygur_Unit_Portrait_256"/>
+      <m_ObjectName text="Uygur_Unit_Portrait_256"/>
+    </Element>
+  </m_Entries>
+  <m_AllowedPlatforms>
+    <Element>WINDOWS</Element>
+  </m_AllowedPlatforms>
+</AssetObjects..XLP>

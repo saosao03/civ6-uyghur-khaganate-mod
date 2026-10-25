@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GameData>
+    <IconTextureAtlases>
+        <!-- Medeniyet Atlası -->
+        <Row Name="ICON_ATLAS_UYGUR_CIV" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Civ_256"/>
+        <Row Name="ICON_ATLAS_UYGUR_CIV" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Civ_80"/>
+        <Row Name="ICON_ATLAS_UYGUR_CIV" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Civ_64"/>
+        <Row Name="ICON_ATLAS_UYGUR_CIV" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Civ_50"/>
+        <Row Name="ICON_ATLAS_UYGUR_CIV" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Civ_48"/>
+        <Row Name="ICON_ATLAS_UYGUR_CIV" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Civ_45"/>
+        <Row Name="ICON_ATLAS_UYGUR_CIV" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Civ_44"/>
+        <Row Name="ICON_ATLAS_UYGUR_CIV" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Civ_36"/>
+        <Row Name="ICON_ATLAS_UYGUR_CIV" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Civ_30"/>
+        <Row Name="ICON_ATLAS_UYGUR_CIV" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Civ_22"/>
+
+        <!-- Lider Atlası -->
+        <Row Name="ICON_ATLAS_UYGUR_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Leader_256"/>
+        <Row Name="ICON_ATLAS_UYGUR_LEADER" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Leader_80"/>
+        <Row Name="ICON_ATLAS_UYGUR_LEADER" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Leader_64"/>
+        <Row Name="ICON_ATLAS_UYGUR_LEADER" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Leader_55"/>
+        <Row Name="ICON_ATLAS_UYGUR_LEADER" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Leader_50"/>
+        <Row Name="ICON_ATLAS_UYGUR_LEADER" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Leader_45"/>
+        <Row Name="ICON_ATLAS_UYGUR_LEADER" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Leader_32"/>
+
+        <!-- Birim Atlası -->
+        <Row Name="ICON_ATLAS_UYGUR_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_256"/>
+        <Row Name="ICON_ATLAS_UYGUR_UNIT" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_80"/>
+        <Row Name="ICON_ATLAS_UYGUR_UNIT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_50"/>
+        <Row Name="ICON_ATLAS_UYGUR_UNIT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_38"/>
+        <Row Name="ICON_ATLAS_UYGUR_UNIT" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_32"/>
+        <Row Name="ICON_ATLAS_UYGUR_UNIT" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_22"/>
+
+        <!-- Bina Atlası -->
+        <Row Name="ICON_ATLAS_UYGUR_BUILDING" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Building_256"/>
+        <Row Name="ICON_ATLAS_UYGUR_BUILDING" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Building_128"/>
+        <Row Name="ICON_ATLAS_UYGUR_BUILDING" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Building_80"/>
+        <Row Name="ICON_ATLAS_UYGUR_BUILDING" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Building_50"/>
+        <Row Name="ICON_ATLAS_UYGUR_BUILDING" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Building_38"/>
+        <Row Name="ICON_ATLAS_UYGUR_UNIT_PORTRAIT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_Portrait_38"/><Row Name="ICON_ATLAS_UYGUR_UNIT_PORTRAIT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_Portrait_50"/><Row Name="ICON_ATLAS_UYGUR_UNIT_PORTRAIT" IconSize="70" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_Portrait_70"/><Row Name="ICON_ATLAS_UYGUR_UNIT_PORTRAIT" IconSize="95" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_Portrait_95"/><Row Name="ICON_ATLAS_UYGUR_UNIT_PORTRAIT" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_Portrait_200"/><Row Name="ICON_ATLAS_UYGUR_UNIT_PORTRAIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Uygur_Unit_Portrait_256"/></IconTextureAtlases>
+
+    <IconDefinitions>
+        <Row Name="ICON_CIVILIZATION_UYGUR_KAGANLIGI" Atlas="ICON_ATLAS_UYGUR_CIV" Index="0"/>
+        <Row Name="ICON_LEADER_BUGU_KAGAN" Atlas="ICON_ATLAS_UYGUR_LEADER" Index="0"/>
+        <Row Name="ICON_UNIT_UYGUR_YAGLAKAR" Atlas="ICON_ATLAS_UYGUR_UNIT" Index="0"/>
+        <Row Name="ICON_BUILDING_UYGUR_BITIG_EVI" Atlas="ICON_ATLAS_UYGUR_BUILDING" Index="0"/>
+    <Row Name="ICON_UNIT_UYGUR_YAGLAKAR_PORTRAIT" Atlas="ICON_ATLAS_UYGUR_UNIT_PORTRAIT" Index="0"/></IconDefinitions>
+</GameData>

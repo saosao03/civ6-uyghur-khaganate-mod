@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Colors>
+		<Row Type="COLOR_PLAYER_UYGUR_PRIMARY"
+             Color="38,104,150,255"/>
+		<Row Type="COLOR_PLAYER_UYGUR_SECONDARY"
+             Color="232,191,84,255"/>
+	</Colors>
+
+	<PlayerColors>
+		<Row Type="LEADER_BUGU_KAGAN"
+             Usage="Unique"
+             PrimaryColor="COLOR_PLAYER_UYGUR_PRIMARY"
+             SecondaryColor="COLOR_PLAYER_UYGUR_SECONDARY"/>
+	</PlayerColors>
+</GameData>
